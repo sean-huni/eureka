@@ -4,7 +4,7 @@
 deploy(){
 # From the remote host-machine, run the following cmd
     docker pull s34n/eureka-img
-    docker run --name='eureka' -d -it -p 8002:8002 s34n/eureka-img && docker logs eureka -f
+    docker run --name='eureka' -d -it -p 8001:8001 s34n/eureka-img && docker logs eureka -f
 }
 
 # Tag-And-Push Script to tag & push the app

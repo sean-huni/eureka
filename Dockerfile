@@ -11,4 +11,4 @@ RUN java -version
 VOLUME /tmp
 RUN bash -c 'touch /app/eureka-service/eureka.jar'
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app/eureka-service/eureka.jar"]
-EXPOSE 8002
+EXPOSE 8001
