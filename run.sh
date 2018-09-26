@@ -17,7 +17,7 @@ tagAndPush(){
 rebuild(){
     gradle clean
     gradle build
-    docker build -f Dockerfile -t eureka-img .
+    docker build -f Dockerfile -t eureka-img . --no-cache
     tagAndPush
 }
 
