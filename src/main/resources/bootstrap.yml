@@ -4,7 +4,7 @@ server:
   port: 8001
 eureka:
   instance:
-    hostname: 10.133.33.126
+    hostname: 198.13.51.15
   client:
     registerWithEureka: false
     fetchRegistry: false
